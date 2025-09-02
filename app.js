@@ -1,5 +1,5 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let amigos = ['Nicolás', 'Pauli', 'Cris', 'Isa', 'Gabriel'];
+let amigos = [];
 
 function agregarAmigo() {
   // 1. Capturar el valor del campo de texto
@@ -62,3 +62,4 @@ function sortearAmigo() {
   li.textContent = amigoSorteado;
   resultado.appendChild(li);
 }
+
